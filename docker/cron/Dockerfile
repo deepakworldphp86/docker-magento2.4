@@ -1,7 +1,7 @@
-ARG php_version=7.1
+ARG php_version=7.4
 FROM php:${php_version}-cli
 
-LABEL maintainer="Ryan Gellis <ryan.gellis@rmgmedia.com>"
+LABEL maintainer="Deepak Kumar <deepakworldphp86@gmail.com>"
 
 RUN apt-get update && apt-get install -y \
   cron \
