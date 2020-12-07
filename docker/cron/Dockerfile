@@ -1,5 +1,4 @@
-ARG php_version=7.4
-FROM php:${php_version}-cli
+FROM php:7.4-fpm
 
 LABEL maintainer="Deepak Kumar <deepakworldphp86@gmail.com>"
 
