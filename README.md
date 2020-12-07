@@ -15,7 +15,7 @@ You will need the following software installed on your host machine:
 If you plan to develop using the Integrator mode, the docker image will automatically install and configure Magento 2 for you. You can run the following to setup a new project:
 
 ```bash
-git clone git@github.com:rmgmedia/docker-magento2.git [install-directory-name]
+git clone git@github.com:deepakworldphp86/docker-magento2.4.git [install-directory-name]
 ```
 
 We recommend naming the install directory after your project since Docker Compose will use this name for networking purposes.
